@@ -3,7 +3,7 @@ using MvcMovie.Models;
 
 namespace MvcMovie.Data
 {
-    class MvcMovieContext : DbContext
+    public class MvcMovieContext : DbContext
     {
         public MvcMovieContext(DbContextOptions<MvcMovieContext> options) : base(options)
         {

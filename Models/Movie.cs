@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace MvcMovie.Models
 {
-    class Movie
+    public class Movie
     {
         public int ID { get; set; }
 
